@@ -10,7 +10,7 @@ for i in range(6):
 # Send the otp to the user
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
-from_mail = 'garvitakesharwani22@gmail.com'
+from_mail = 'alishakesarwani14@gmail.com'
 server.login('your_email@gmail.com','your_app_password')
 to_mail = input("Enter your email: ")
 msg = EmailMessage()
